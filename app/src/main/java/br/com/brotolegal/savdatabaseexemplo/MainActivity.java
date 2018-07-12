@@ -11,12 +11,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+
         setContentView(R.layout.activity_main);
 
         TextView label = (TextView) findViewById(R.id.label01);
-
-        Acordo  acordo = new Acordo();
 
     }
 }
